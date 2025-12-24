@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* 绝对黑 */
+    overflow: hidden; /* 禁止滚动 */
+    touch-action: none; /* 禁止浏览器默认的手势(如刷新) */
+}
+
+canvas {
+    display: block;
+}

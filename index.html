@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 禁止缩放，这对手机端交互至关重要 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Project: Zero</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 移动端调试工具 vConsole -->
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+        // 初始化 vConsole
+        var vConsole = new VConsole();
+    </script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <!-- 这里放一个隐藏的 img 标签用来提取数据 -->
+    <img id="catSource" src="cat.png" style="display:none;">
+
+    <script src="main.js"></script>
+</body>
+</html>
